@@ -4,6 +4,9 @@ import { defineConfig } from 'wxt';
 export default defineConfig({
   extensionApi: 'chrome',
   manifest:{
-    permissions:["storage"]
-  }
+    name: "Upload Imgur!!",
+    description: "Upload image to Imgur",
+    permissions:["storage","clipboardWrite"]
+  },
+  modules: ['@wxt-dev/auto-icons'],
 });
