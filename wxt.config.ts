@@ -6,6 +6,8 @@ export default defineConfig({
   manifest:{
     name: "Upload Imgur!!",
     description: "Upload image to Imgur",
+    version: "1.0.0",
+    author:{email:""},
     permissions:["storage","clipboardWrite"]
   },
   modules: ['@wxt-dev/auto-icons'],
